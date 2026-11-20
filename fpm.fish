@@ -100,6 +100,14 @@ while true
             end
             set selected $installed[$number2]
             clear
+            read -P "Are you sure you want to remove $selected? (y/n): " rem
+            if test $rem = y
+                clear
+            else
+                echo "Removal cancelled."
+                read -P "Press Enter to continue..."
+                continue
+            end
             read -P "Do you want to purge $selected? (y/n): " pur
             if test $pur = y
                 clear
