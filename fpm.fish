@@ -5,7 +5,7 @@ echo "Updating package list..."
 sudo apt update
 while true
     clear
-    echo "FISH PACKAGE MANAGER"
+    echo "FPM - Fish Package Manager"
     echo ---------------------
     echo "1. Package Installer"
     echo "2. Package Remover/Purger"

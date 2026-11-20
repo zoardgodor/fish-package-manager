@@ -1,5 +1,6 @@
-# fish-package-manager
-A package manager writed in fish.
+# FPM
+## Fist Package Manager
+An apt package manager writed in fish.
 
 ## Installing Fish
 ```bash
@@ -9,12 +10,12 @@ sudo apt install fish
 ## First use:
 
 ```bash
-chmod +x fish-package-manager.fish
+chmod +x fpm.fish
 ```
 
 Execution:
 ```bash
-./fish-package-manager.fish
+./fpm.fish
 ```
 ## Usage:
 
