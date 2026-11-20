@@ -24,7 +24,7 @@ First, the script updates the apt package list.\
 
 Afterwards, this menu will appear:
 
-![menu](111.png)
+![menu](menu.png)
 
 Enter a single number here. The number of your chosen option or q to exit.
 
